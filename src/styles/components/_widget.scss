@@ -1,0 +1,30 @@
+// Widget header
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size
+}
+
+.widget__message {
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+    text-align: center;
+}
+
+.widget-header {
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size
+}
+
+// setup an element selector for widget-header
+// set margin = 0
+// use the class
+
+.widget-header__h3 {
+    margin: 0;
+}
+
